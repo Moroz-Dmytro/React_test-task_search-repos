@@ -1,0 +1,26 @@
+@import '../../utils/mixins';
+
+.list {
+  padding: 0;
+
+  @include laptop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+  }
+}
+
+.card {
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+  &__title {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+  }
+
+  &__description {
+    font-weight: bold;
+  }
+}

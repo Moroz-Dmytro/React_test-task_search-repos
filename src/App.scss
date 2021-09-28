@@ -1,3 +1,42 @@
-.starter {
-  font-size: 18px;
+@import './utils/mixins';
+
+.App {
+  min-height: 100%;
+  background-color: #394048;
+  padding: 20px;
+  text-align: center;
+
+  @include laptop {
+    padding: 50px;
+  }
+
+  &__header {
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #d0c9af;
+  }
+
+  &__title {
+    color: #d0c9af;
+  }
+
+  &__main {
+    @include laptop {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 20px;
+    }
+  }
+
+  &__history {
+    margin-bottom: 40px;
+  }
+}
+
+.input-field {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  outline: none;
 }

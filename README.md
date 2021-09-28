@@ -1,9 +1,21 @@
-# React TypeScript Starter Pack
+# Project Title
+GitHub repos search app
 
-To use this template click `Use this template`
 
-### Available Scripts
+This project lets you find repositories on GitHub by key query.
+- [DEMO LINK](https://Moroz-Dmytro.github.io/react_test-task_search-repos/)
 
-`Deploy` - available to deploy your application to gh-pages
+## Description
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+Input the name of the repo(or just phrase) and you will see 50 repos that fit the query.
+If you want to open one of this repos, just click on its name.
+
+### Dependencies
+* Node v12.16.3 and higher
+* NPM v6.14.4 and higher
+
+
+### Installing
+* Fork and clone this repository
+* Run `npm install` in your terminal
+* Run `npm start`
