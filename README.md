@@ -1,7 +1,7 @@
 # GitHub repos search app
 
 This project lets you find repositories on GitHub by key query.
-- [DEMO LINK](https://Moroz-Dmytro.github.io/react_test-task_search-repos/)
+- [DEMO LINK](https://Moroz-Dmytro.github.io/React_test-task_search-repos/)
 
 ## Description
 
